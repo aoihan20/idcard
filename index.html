@@ -1,0 +1,87 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Id Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous"referrerpolicy="no-referrer" />
+
+  <style>
+
+      *{ margin: 0; padding: 0; }
+
+      .centerdiv{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+
+      }
+
+      a{
+        height: 25px;
+        width: 25px;
+        background-color: #1c1c1c;
+        border-radius: 9px;
+        text-align: center;
+        margin:5px;
+        margin-top: 6px;
+        line-height: 24px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        border: 2px solid transparent;
+        background-image: linear-gradient(#1c1c1c, #1c1c1c), linear-gradient(to right, #4c68d7, #6b5b95);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+      }
+
+      a i {
+        transition: all 0.3s linear;
+        font-size: 11px;
+      }
+
+      a:hover i{
+        transform: scale(1.4);
+        margin: 7px;
+        color:aliceblue;
+
+
+      }
+
+      .fa-tiktok{
+        color:#6b5b95;
+      }
+
+      .fa-instagram{
+        color:#6b5b95;
+      }
+
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+  <div class="id-card">
+    <div class="content">
+      <div class="profile-pic">
+        <img src="PFP.jpeg" class="img-content" alt="profile image"></div>
+      <div class="info">
+        <h2>Elzee</h2>
+        <h5>Hey there! I'm Zee.  I occasionally broadcast on TikTok. Feeling down? I'm totally here to chat!</h5>
+        <p>All My Social Media </p>
+            <div class="centerdiv">
+              <a href="https://www.tiktok.com/@zeeyourfav01?is_from_webapp=1&sender_device=pc" target="_blank">
+                <i class="fa-brands fa-tiktok" ></i>
+              </a>
+              <a href="https://www.instagram.com/zeeyourfav01/?utm_source=ig_web_button_share_sheet" target="_blank"> 
+                <i class="fa-brands fa-instagram" ></i>
+            </a>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous"referrerpolicy="no-referrer"></script>
+    <script>
+      feather.replace();
+    </script>
+</body>
+</html>

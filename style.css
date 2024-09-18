@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1c1c1c;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.id-card {
+  width: 230px;
+  height: 277px;
+  background-color:#1c1c1c;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border: 2px solid transparent;
+  background-image: linear-gradient(#1c1c1c, #1c1c1c), linear-gradient(to right, #4c68d7, #6b5b95);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+
+}
+
+.id-card .content {
+  padding: 20px;
+  text-align: center;
+
+}
+
+.img-content {
+  width: 47%;
+  border-radius: 50px;
+  box-shadow: 1px 3px 29px -1px rgb(245, 245, 245);
+  -webkit-box-shadow: 1px 3px 29px -1px  rgba(123, 46, 248, 0.847);
+  -moz-box-shadow: 1px 3px 29px -1px rgba(255, 255, 255, 0.998);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.id-card .info h2 {
+  font-size:30px;
+  font-weight: 500px;
+  color: white;
+  text-shadow: 0 0 50px rgb(121, 170, 255);
+}
+
+.id-card .info h5 {
+  font-size: 9px;
+  font-weight: 14px;
+  color: #bdc3c7;
+
+}
+
+.id-card .info p {
+  font-size: 10px;
+  margin-top: 17px;
+  color: #bdc3c7;
+
+}
